@@ -3,3 +3,92 @@
   background-position: center center;
   background-size: cover;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+.content {
+  background: -webkit-linear-gradient(360deg, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  -webkit-text-stroke: 0.6px black;
+  color: transparent;
+
+  color: orangered;
+}
+
+.texto-borde {
+  -webkit-text-stroke: 0.7px white;
+  color: transparent;
+
+  font-size: 50px;
+  color: orangered;
+}
+
+.img-fondo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.7), rgba(5, 7, 12, 0.7)),
+    url(../Assets/Barsa\ Stadium.jpeg);
+}
+
+.img-avatar {
+  background: linear-gradient(rgba(5, 7, 12, 0.7), rgba(5, 7, 12, 0.7)),
+    url(./assets/Slide\ Avatar.jpeg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.img-reseller {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+    url(./Assets/Panel\ Reseller.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+h2 {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  word-wrap: break-word;
+}
+
+.btn-Arriba {
+  position: fixed;
+  padding-left: 4px;
+  bottom: 30px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: all 1000ms ease;
+}
+
+.btn-Arriba:hover {
+  transform: scale(1.3);
+}
+
+.flecha {
+  border-radius: 50px;
+  background-color: #fd1d1d;
+}
+
+.Telegram {
+  position: fixed;
+  right: 0px;
+  bottom: 70px;
+  border: none;
+  transition: all 300ms ease;
+}
+
+.Telegram:hover {
+  transform: scale(1.2);
+}
+
+.btn-outline-light:hover {
+  background-color: #fd1d1d !important;
+  color: #fff !important;
+}
+
+.ft {
+  /* background: #fff; */
+  background-color: rgba(5, 7, 12, 0.4);
+}
