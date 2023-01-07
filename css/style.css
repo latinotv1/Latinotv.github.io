@@ -1,5 +1,5 @@
 .carousel-inner {
-  max-height: 30rem;
+  min-height: auto;
   background-position: center center;
   background-size: cover;
 }
@@ -41,7 +41,7 @@ html {
 
 .img-reseller {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
-    url(./Assets/Panel\ Reseller.jpg) no-repeat center fixed;
+    url(../Assets/Panel\ Reseller.jpeg) no-repeat center fixed;
   background-size: cover;
 }
 
