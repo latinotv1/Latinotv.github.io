@@ -54,7 +54,7 @@ h2 {
 
 .btn-Arriba {
   position: fixed;
-  padding-left: 4px;
+  margin-left: 6px;
   bottom: 30px;
   cursor: pointer;
   background: none;
