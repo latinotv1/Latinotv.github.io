@@ -18,6 +18,14 @@ html {
   color: orangered;
 }
 
+.pp {
+  color: blue;
+}
+
+.bi {
+  color: yellow;
+}
+
 .texto-borde {
   -webkit-text-stroke: 0.7px white;
   color: transparent;
